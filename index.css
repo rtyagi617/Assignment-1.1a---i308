@@ -1,0 +1,163 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-img {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 135px 0;
+    font-size: 30px;
+}
+/* https://www.browserstack.com/guide/position-text-over-image-using-css */
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container {
+    background-color: #c8d8e4;
+    color: #2b6777;
+    width: 30%;
+    padding: 60px;
+    text-align: center;
+}
+/* https://www.shecodes.io/athena/50265-how-to-change-the-width-of-a-container-in-css#:~:text=To%20change%20the%20width%20of%20a%20container%2C%20you%20will%20need,using%20the%20width%20CSS%20property.&text=You%20can%20adjust%20the%20pixel,you%20need%20for%20your%20container.&text=This%20will%20set%20the%20width,50%25%20of%20the%20parent%20element. */
+
+.about-me h2 {
+    font-size: 30px;
+}
+  
+.about-me p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.left-container img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+/* https://ianrmedia.unl.edu/resources/rounded-corners-images#:~:text=The%20border%2Dradius%20CSS%20property%20is%20what%20adds%20the%20rounded%20corners.&text=You%20can%20experiment%20with%20different,it%20the%20way%20you%20like.&text=border%2Dradius%3A%2075px%3B,%2Dradius%3A%2050%25%3B%20. */
+
+.personal-info{
+    font-size:20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2b6777;
+    color: #c8d8e4;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 20px;
+}
+/* https://www.w3schools.com/css/css3_buttons.asp */
+
+.button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #2b6777;
+    background-color: #c8d8e4;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 20px;
+}
+/* https://www.w3schools.com/css/css3_buttons.asp */
+
+.button2:hover {
+    background-color: #773b2b;
+    color: #c8d8e4;
+}
+
+.button:hover {
+    background-color: #773b2b;
+    color: #c8d8e4;
+}
+
+.right-container {
+    color: #c8d8e4;
+    background-color: #2b6777;
+    width: 70%;
+    padding: 84px;
+    text-align: center;
+}
+/* https://www.shecodes.io/athena/50265-how-to-change-the-width-of-a-container-in-css#:~:text=To%20change%20the%20width%20of%20a%20container%2C%20you%20will%20need,using%20the%20width%20CSS%20property.&text=You%20can%20adjust%20the%20pixel,you%20need%20for%20your%20container.&text=This%20will%20set%20the%20width,50%25%20of%20the%20parent%20element. */
+
+.right-container img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    margin: 50px auto;
+    width: 80%;
+}
+
+table { 
+    width:100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8x;
+}
+
+th {
+    background-color:#2b6777;
+    color: #c8d8e4;
+    text-align: center;
+    font-size: 20px;
+}
+
+td {
+    font-size:18px;
+}
+
+.saka {
+    color: #DB0007;
+}
+
+.air {
+    color:deepskyblue;
+}
+
+.water {
+    color: darkblue;
+}
+
+.fire{
+    color:crimson;
+}
+
+.earth{
+    color: green;
+}
+
+.footer-content {
+    width: 100%;
+    background-color: #c8d8e4;
+    color: #2b6777;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 20px;
+}
+/* https://www.w3schools.com/tags/tag_footer.asp */
+
+
+.sig { 
+    font-family: 'Brush Script MT', cursive; 
+}
+/* /* https://www.w3schools.com/cssref/css_websafe_fonts.php */
+
